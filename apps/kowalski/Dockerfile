@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install -j$(nproc) gd
 
 # Set working directory
-WORKDIR /var/www/curator
+WORKDIR /var/www/kowalski
 
 
 # Clear cache
@@ -22,10 +22,10 @@ RUN groupadd -g 1000 www
 RUN useradd -u 1000 -ms /bin/bash -g www www
 
 # Copy existing application directory contents
-COPY . /var/www/curator
+COPY . /var/www/kowalski
 
 # Copy existing application directory permissions
-COPY --chown=www:www . /var/www/curator
+COPY --chown=www:www . /var/www/kowalski
 
 # Change current user to www
 USER www

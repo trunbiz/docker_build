@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ad4102c-477b-4ad0-84b7-3732295ee02b" name="Default Changelist" comment="" />
+    <list default="true" id="5ad4102c-477b-4ad0-84b7-3732295ee02b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/curator/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/metabiz/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/dispenser/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/kowalski/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/sites/curator.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/sites/metabiz.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/sites/dispenser.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/sites/kowalski.conf" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,39 +18,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/curator/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/dispenser/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/metabiz/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/kowalski/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/php/local.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="335">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/docker/mysql/my.cnf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/nginx/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state relative-caret-position="493">
+              <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -77,25 +77,25 @@
         <entry file="file://$PROJECT_DIR$/docker/nginx/ssl/ssl_cert.pem">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/nginx/sites/curator.conf">
+        <entry file="file://$PROJECT_DIR$/docker/nginx/sites/metabiz.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="228">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/nginx/sites/dispenser.conf">
+        <entry file="file://$PROJECT_DIR$/docker/nginx/sites/kowalski.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="204">
+              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -105,21 +105,37 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ssl</find>
+      <find>mysql</find>
+      <find>.conf</find>
+      <find>dispenser</find>
+      <find>curator</find>
+      <find>site</find>
     </findStrings>
+    <replaceStrings>
+      <replace>kowalski</replace>
+      <replace>metabiz</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/metabiz/Dockerfile" />
         <option value="$PROJECT_DIR$/apps/viki-app/Dockerfile" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/php/local.ini" />
         <option value="$PROJECT_DIR$/docker/mysql/my.cnf" />
-        <option value="$PROJECT_DIR$/docker/nginx/nginx.conf" />
         <option value="$PROJECT_DIR$/docker/nginx/ssl/ssl_cert.key" />
         <option value="$PROJECT_DIR$/docker/nginx/ssl/ssl_cert.pem" />
         <option value="$PROJECT_DIR$/docker/nginx/sites/curator.conf" />
         <option value="$PROJECT_DIR$/docker/nginx/sites/dispenser.conf" />
+        <option value="$PROJECT_DIR$/docker/nginx/sites/nginx.conf" />
+        <option value="$PROJECT_DIR$/docker/nginx/sites/kowalski.conf" />
+        <option value="$PROJECT_DIR$/docker/nginx/sites/metabiz.conf" />
+        <option value="$PROJECT_DIR$/apps/kowalski/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/nginx/nginx.conf" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/apps/metabiz/Dockerfile" />
       </list>
     </option>
   </component>
@@ -129,12 +145,44 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/apps/kowalski/source/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/Chart.js/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/DateJS/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/Flot/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/animate.css/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/autosize/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/bootstrap-datetimepicker/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/bootstrap-progressbar/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/bootstrap-wysiwyg/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/cropper/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/devbridge-autocomplete/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/echarts/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/eve/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/flot-spline/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/ion.rangeSlider/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/jquery-knob/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/jquery.easy-pie-chart/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/jqvmap/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/jszip/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/morris.js/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/select2/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/starrr/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/switchery/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/transitionize/package.json" />
+      <path value="$PROJECT_DIR$/apps/kowalski/source/public/asset/vendors/validator/package.json" />
+      <path value="$PROJECT_DIR$/apps/metabiz/source/package.json" />
+    </packageJsonPaths>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -157,13 +205,7 @@
               <item name="docker build" type="b2602c69:ProjectViewProjectNode" />
               <item name="docker build" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="curator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker build" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="dispenser" type="462c0819:PsiDirectoryNode" />
+              <item name="kowalski" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docker build" type="b2602c69:ProjectViewProjectNode" />
@@ -189,12 +231,6 @@
               <item name="nginx" type="462c0819:PsiDirectoryNode" />
               <item name="sites" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="docker build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker build" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -202,10 +238,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="nginx.conf&#9;FILE&#9;file://D:/source/docker build/docker/nginx/nginx.conf" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\source\docker build\apps\metabiz" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -229,24 +271,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664534418383</updated>
-      <workItem from="1664534419783" duration="1712000" />
+      <workItem from="1664534419783" duration="3381000" />
+      <workItem from="1665117397651" duration="5054000" />
+      <workItem from="1666755942349" duration="5466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1712000" />
+    <option name="totallyTimeSpent" value="13901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -254,10 +294,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,20 +312,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/curator/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/dispenser/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -291,17 +322,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/sites/nginx.conf" />
+    <entry file="file://$PROJECT_DIR$/dbdata/my.cnf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker/mysql/my.cnf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -315,28 +343,52 @@
     <entry file="file://$PROJECT_DIR$/docker/nginx/ssl/ssl_cert.pem">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/sites/dispenser.conf">
+    <entry file="file://$PROJECT_DIR$/apps/metabiz/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/sites/kowalski.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="204">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/sites/curator.conf">
+    <entry file="file://$PROJECT_DIR$/docker/nginx/sites/metabiz.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/kowalski/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="335">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/metabiz/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>

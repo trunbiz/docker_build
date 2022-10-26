@@ -1,7 +1,7 @@
 version: '3'
 services:
 
-  webserver:
+  nginx:
     image: nginx:alpine
     restart: unless-stopped
     tty: true
@@ -9,61 +9,61 @@ services:
     - "80:80"
     - "443:443"
     volumes:
-    - ./apps/curator/:/var/www/curator
-    - ./apps/dispenser/:/var/www/dispenser
-    - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
+    - ./apps/metabiz/source/:/var/www/metabiz
+    - ./apps/kowalski/source/:/var/www/kowalski
+#    - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
     - ./docker/nginx/sites/:/etc/nginx/conf.d/
     - ./docker/nginx/ssl/:/etc/ssl/
     networks:
     - app-network
 
-  curator:
+  metabiz:
     build:
-      context: apps/curator
+      context: apps/metabiz
       dockerfile: Dockerfile
     image: digitalocean.com/php
     restart: unless-stopped
     tty: true
     environment:
-      SERVICE_NAME: curator
+      SERVICE_NAME: metabiz
       SERVICE_TAGS: dev
-    working_dir: /var/www/curator
+    working_dir: /var/www/metabiz
     volumes:
-    - ./apps/curator/:/var/www/curator
+    - ./apps/metabiz/source/:/var/www/metabiz
     - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
     networks:
     - app-network
 
-  dispenser:
+  kowalski:
     build:
-      context: apps/dispenser
+      context: apps/kowalski
       dockerfile: Dockerfile
     image: digitalocean.com/php
     restart: unless-stopped
     tty: true
     environment:
-      SERVICE_NAME: dispenser
+      SERVICE_NAME: kowalski
       SERVICE_TAGS: dev
-    working_dir: /var/www/dispenser
+    working_dir: /var/www/kowalski
     volumes:
-    - ./apps/dispenser/:/var/www/dispenser
+    - ./apps/kowalski/source/:/var/www/kowalski
     - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
     networks:
     - app-network
 
   db:
     image: mysql:8.0
-    restart: unless-stopped
+    restart: 'on-failure'
     tty: true
     ports:
     - "3306:3306"
     environment:
-      MYSQL_DATABASE: dispenser_db
+      MYSQL_DATABASE: local_db
       MYSQL_ROOT_PASSWORD: root
       SERVICE_NAME: mysql
       SERVICE_TAGS: dev
     volumes:
-    - dbdata:/var/lib/mysql/
+    - ./dbdata/db:/var/lib/mysql/
     - ./docker/mysql/my.cnf:/var/lib/mysql/my.cnf
     networks:
     - app-network
